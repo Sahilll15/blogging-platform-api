@@ -25,12 +25,15 @@ This repository contains the RESTful API for a blogging platform built using Exp
     git clone https://github.com/sahilll15/blogging-platform-api.git
    ```
 
-2.Go into the working direcory
+2. Go into the working directory
 ```bash
 cd blogging-platform-api
 ```
 
-3.run the project
+3. view the .env.example file and add the required fields
+
+
+4. run the project
 ```
 npm i
 nodemon index.js
@@ -38,14 +41,11 @@ nodemon index.js
 
 
 
-    
-
-
-
+   
 
 ## API Documentation
 
-the apis of the project are
+the APIs of the project are
 
 
 1. **Authentication API**
@@ -65,7 +65,7 @@ the apis of the project are
     - `GET /comment/get/:postId`: Get all comments for a post.
     - `PUT /comment/update/:commentId`: Update a comment by ID.
     - `DELETE /comment/delete/:commentId`: Delete a comment by ID.
-    - `GET /comment/comment/:commentId`: get the comment by the commment id 
+    - `GET /comment/comment/:commentId`: get the comment by the comment id 
 
   4. **Middleware**
     - Authentication middleware: Ensures that only authenticated users can access certain routes.
